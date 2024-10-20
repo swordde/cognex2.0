@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        <img src="logo.png" alt="Cognex Logo" class="logo">
+        <h1>Welcome to Cognex</h1>
+        
+        </nav>
+        <!-- Dark Mode Toggle -->
+        <button id="toggle-dark-mode"></button>
+    </header>
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to Cognex! We are excited to have you here. Our mission is to...</p>
+        <div class="events">
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li>Event 1 - Date</li>
+                <li>Event 2 - Date</li>
+                <li>Event 3 - Date</li>
+            </ul>
+        </div>
+    </section>
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our club has a rich history of...</p>
+        <p>Mission: Our mission is to...</p>
+        <p>Vision: Our vision is to...</p>
+        <p>Achievements: We have achieved...</p>
+    </section>
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Events</h2>
+        <p>Check out our upcoming events:</p>
+        <ul>
+            <li>Event 1 - Date, Time, Location</li>
+            <li>Event 2 - Date, Time, Location</li>
+            <li>Event 3 - Date, Time, Location</li>
+        </ul>
+    </section>
+    <!-- Membership Section -->
+    <section id="membership">
+        <h2>Membership</h2>
+        <p>Join us today! Membership benefits include...</p>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <!-- Resources Section -->
+    <section id="resources">
+        <h2>Resources</h2>
+        <ul>
+            <li><a href="#">Document 1</a></li>
+            <li><a href="#">Document 2</a></li>
+            <li><a href="#">Useful Link 1</a></li>
+            <li><a href="#">Useful Link 2</a></li>
+        </ul>
+    </section>
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Check out some photos from our recent events:</p>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Event Image 1">
+            <img src="image2.jpg" alt="Event Image 2">
+            <img src="image3.jpg" alt="Event Image 3">
+        </div>
+    </section>
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Read our latest news and articles.</p>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cognex. All rights reserved.</p>
+    </footer>
+    <!-- JavaScript for Interactivity -->
+    <script>
+        // Dark Mode Toggle
+        document.getElementById('toggle-dark-mode').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>

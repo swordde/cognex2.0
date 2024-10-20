@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6adadcc;
+}
+
+header {
+    background-color: #e6adadcc;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    height: 1000px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 
+    3.5em;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0%;
+
+}
+
+
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+section {
+    padding: 20px;
+    background-color: #000000;
+    margin: 20px 10%;
+    border-radius: 8px;
+    color: #944e4e;
+    box-shadow: 0 0 10px rgb(145, 39, 39);
+}
+
+h2 {
+    color: #944e4e;
+}
+p{
+    color: #e6adadcc;
+}
+.events ul, .events ul li, .events ul li a {
+    color: #db0000;
+}
+
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 90%;
+    background-color: #e6adadcc;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #342c2c;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #e6adadcc;
+    color: #0e0b0b;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1a1515;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;  /* Changed from fixed to relative */
+}
+
+/* Added section for logo */
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1c1c1c;
+    color: #910000;
+}
+
+body.dark-mode header {
+    background-color: #333;
+}
+
+body.dark-mode nav ul li a {
+    color: #cd7171;
+}
+
+body.dark-mode section {
+    background-color: #2e2e2e;
+    color: #c53e3e;
+}
+
+body.dark-mode form input[type="text"],
+body.dark-mode form input[type="email"],
+body.dark-mode form textarea {
+    background-color: #444;
+    border: 1px solid #555;
+    color: #9e0e0e;
+}
+
+body.dark-mode form input[type="submit"] {
+    background-color: #444;
+    color: #b92626;
+}
+
+body.dark-mode footer {
+    background-color: #333;
+    color: #be2b2b;
+}
